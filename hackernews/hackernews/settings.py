@@ -127,7 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 GRAPHENE = {
     'SCHEMA': 'hackernews.schema.schema',
-    'SCHEMA': 'mysite.myschema.schema',
+    # 'SCHEMA': 'mysite.myschema.schema',
     'MIDDLEWARE': [
         'graphql_jwt.middleware.JSONWebTokenMiddleware',
     ],
